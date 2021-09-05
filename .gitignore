@@ -1,3 +1,17 @@
+# Misc
+
+
+.DS_STORE
+
+*.png
+*.db
+/db
+node_modules
+ownerDetails.json
+/resources
+/dist
+*.sh
+
 # Logs
 logs
 *.log

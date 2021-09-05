@@ -1,0 +1,15 @@
+{ "owner": {
+
+    "id": 1,
+    "companyName": "Stephans Transport AB",
+    "referenceName": "Stefan Östlund",
+    "companyRegistrationNumber": "556758-0898",
+    "registeredBusiness": true,
+    "registeredAtIRS": true,
+    "bank": "Handelsbanken",
+    "accountNumber": "5470-4929",
+    "address": "Åkershus 60",
+    "zipCode": "245 37",
+    "city": "Staffanstorp"
+
+}}
