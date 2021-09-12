@@ -86,8 +86,8 @@ function make_pdf() {
         for (let i = 1; i<sendList.length; i++ ){
 
             let amount = sendList[i].amount
-            let hours = sendList[i].hours
-            let price = sendList[i].price
+            let hours = parseFloat(sendList[i].hours)
+            let price = parseFloat(sendList[i].price)
             let VAT = sendList[i].VAT
             let VAT_show = sendList[i].VAT*100
             let total = (amount*hours*price)*1.25

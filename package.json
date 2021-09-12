@@ -1,9 +1,10 @@
 {
-  "name": "fakturasystem",
+  "name": "ecosysdesktop",
   "version": "1.0.0",
-  "main": "backend.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
     "open": "^8.0.8",
     "pdfmake": "^0.1.69"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^14.0.0"
+  },
   "description": ""
 }

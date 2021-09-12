@@ -1,0 +1,13 @@
+
+
+Product rows:
+sum without VAT
+Total without VAT
+
+TOTAL 
+
+Invoice info:
+
+
+
+Rows do not go back to its regular state.
