@@ -1,3 +1,5 @@
+
+
 let totals = [] // production use
 
 let sendList = [] // active list for sending data to pdfs
@@ -267,11 +269,12 @@ function resetproducts(){
 }
 
 
-async function getOwnerData() {
-    await fetch("/data").then(response => response.json()).then(data => companyDetails = data.owner)
+
+
+function getOwnerData() {
+    fetch("./ownerDetails.json").then(response => response.json()).then(data => companyDetails = data.owner)
     return companyDetails
 }
-
 
 function mobileField(){
     let mobileField = document.querySelector(".mobile-list")

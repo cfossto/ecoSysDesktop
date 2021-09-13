@@ -1,5 +1,4 @@
 const {app, BrowserWindow } = require('electron')
-const fs = require('fs')
 
 //const main_script = fs.readFile('/backend/EcoScode.js')
 //const pdf_script = fs.readFile('/backend/pdfs.js')
@@ -20,7 +19,7 @@ function createWindow(){
 app.whenReady().then(() =>{
     createWindow()
     
-    app.on('window-all-closed', function () {  if (process.platform !== 'darwin') app.quit()})
+    //app.on('window-all-closed', function () {  if (process.platform !== 'darwin') app.quit()})
 
 
 })
