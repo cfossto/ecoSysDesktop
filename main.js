@@ -1,4 +1,6 @@
 const {app, BrowserWindow } = require('electron')
+require('update-electron-app')()
+
 
 //const main_script = fs.readFile('/backend/EcoScode.js')
 //const pdf_script = fs.readFile('/backend/pdfs.js')
@@ -8,7 +10,7 @@ const {app, BrowserWindow } = require('electron')
 
 function createWindow(){
     const win = new BrowserWindow({
-        width:800,
+        width:1500,
         height:900
     })
 

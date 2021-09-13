@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "open": "^8.0.8",
-    "pdfmake": "^0.1.69"
+    "pdfmake": "^0.1.69",
+    "update-electron-app": "^2.0.1"
   },
   "devDependencies": {
     "electron": "^14.0.0"
