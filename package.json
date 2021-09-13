@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cfossto/ecoSysDesktop"
+    "url": "git+https://github.com/cfossto/ecoSysDesktop.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Christopher Fossto",
+  "license": "SEE LICENSE IN README.md",
   "bugs": {
     "url": "https://github.com/cfossto/ecoSys/issues"
   },
@@ -25,5 +25,11 @@
   "devDependencies": {
     "electron": "^14.0.0"
   },
-  "description": ""
+  "description": "Invoice system for desktop and webb. Made by Christopher Fossto",
+  "keywords": [
+    "invoice",
+    "business",
+    "desktop",
+    "webb"
+  ]
 }
